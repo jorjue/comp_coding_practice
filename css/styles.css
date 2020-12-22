@@ -33,6 +33,23 @@ ul, ol {
   font-size: 120px;
 }
 
+.copy-check p {
+  text-align: center;
+  position: relative;
+  top: 38%;
+  font-size: 60px;
+}
+
+@media (max-width: 854px) {
+  .copy-check h1 {
+    font-size: 52px;
+  }
+  .copy-check p {
+    top: 48%;
+    font-size: 26px;
+  }
+}
+
 .section-title {
   font-family: Roboto;
   font-size: 36px;
